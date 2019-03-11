@@ -1,0 +1,405 @@
+/*----------全局样式------------*/
+*{margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;}
+
+  a{text-decoration: none}
+
+  a:hover{text-decoration: underline;}
+
+  body{font-size: 12px;
+       }
+   
+
+/*-----------头部-----------*/  
+.head{width: 100%;
+      height: 120px;
+      }
+
+.area{width:990px;
+      margin: 0 auto}      
+
+.head-content{width: 300px;
+              height: 62px;
+              background: url(../images/register-img/zhuce.jpg) no-repeat;
+              margin-top: 23px;
+              float: left;
+              overflow:hidden;
+              }   
+/*------------注册部分--------------*/                 
+
+.people,.goverment{float: left;
+                   overflow: hidden;
+                   width: 152px;
+                   height: 43px;
+                   line-height: 43px;
+                   text-align: center;
+                   vertical-align: middle;
+                    border:1px solid #ccc;
+                    margin-right: 2px;
+                     border-bottom: 0;
+                     font-size: 14px;
+                     font-weight: bold}
+
+ .people{color: #c00;
+         border-top: 2px solid #c00;
+         }
+
+ .goverment{background: #f3f3f3;
+            color: #5e5e5e}   
+ 
+ .register-wrap{margin-left: 150px;
+                float: left;
+               overflow: hidden;} 
+
+ .change{position: absolute;
+         right: 200px;
+         top: 140px}    
+
+  .change a{color: #00f}       
+
+  .change a:hover{color: #b00}           
+
+ /*-----------表单部分------------*/
+
+ .frm{width: 990px;
+      box-sizing: border-box;
+      height: 586px;
+      border:1px solid #ccc;
+      float: left;
+      overflow: hidden;
+      position: relative;}   
+
+ .frm div:nth-of-type(1){margin-top: 42px}     
+
+ .frm div{margin-left: 30px;
+          margin-bottom: 28px;
+          width: 620px;
+          height: 37px;
+          position: relative;
+         font-size: 14px;
+         line-height: 37px;
+         vertical-align: middle;
+         color: #888;
+         }    
+
+   .frm b{width: 100px;
+          height: 37px;
+          line-height: 37px;
+          position: absolute;
+          left: 10px;
+          text-align: right;
+          font-weight: normal;}       
+
+ .frm input{width: 290px;
+            height: 37px;
+            box-sizing: border-box;
+            position: absolute;
+            left: 120px;
+            padding-left: 10px;
+            }     
+
+ .frm span{position: absolute;
+           height: 37px;
+           right: 0;
+           box-sizing: border-box;
+           font-size: 12px;
+           left: 410px;
+           line-height: 37px;
+           text-align: center;
+           vertical-align: middle;
+           border:1px solid #ccc;
+           display: none}           
+
+ .frm button{width: 290px;
+             height: 37px;
+             color: #fff;
+             background: #ff5757;
+             border-style: none;
+             margin-left: 150px;
+             font-size: 14px;
+             font-weight: bold;
+            line-height: 38px;
+           vertical-align: middle;
+           cursor: pointer;}   
+
+.frm  img{position: absolute; 
+         top: -60px;
+         right: 65px;
+          overflow: hidden;} 
+
+                           
+.red{color: #f00}
+
+.green{color: #0f0}
+
+.frm .message input{width: 134px}
+
+
+
+ .message-word{height: 37px;
+               line-height: 37px;
+               text-align: center; 
+               vertical-align: middle;
+               border:1px solid #ccc;
+               cursor: pointer;
+               width: 105px;
+               margin-left: 260px;
+              font-size: 12px}
+ .message-word:hover{
+                     border:1px solid #333;
+                     }
+
+.frm div.move{width: 290px;
+             height: 37px;
+             border:1px solid #aaa;;
+             position: relative;
+             left: 90px;
+             margin-top: 0px;
+             font-size: 12px;
+             text-align: center;
+             vertical-align: middle;
+             background: #eee;
+             color: #787878}
+
+.frm div .moveto{position: absolute;
+           height: 35px;
+           width: 50px;
+           text-align: center;
+           vertical-align: middle;
+           cursor: move;;
+           background: #fff;
+           top: 0;
+           left: 0}          
+
+ /*---------------遮罩部分--------------*/
+    .shade{position: absolute;
+           width: 890px;
+            height: 524px;
+            background: #fff;
+            z-index: 100;
+            top: 100px;
+            left: 215px;
+            box-shadow: 1px 1px 1px 2px #ccc;
+            }  
+
+    .shade div{width: 820px;
+               height: 78px;
+               text-align: center;
+                overflow-y: auto;
+                margin: 5px auto 0;
+                border:1px solid #ddd;
+                box-sizing: border-box;
+                user-select: none;}
+
+
+.shade p{user-select: none;}
+  .shade p:nth-of-type(1){font-size: 16px;
+                          text-align: center;
+                         margin-top: 28px} 
+
+  .shade p:nth-of-type(2){font-weight: bold;
+                          text-align: center;
+                          margin-top: 20px} 
+
+  .shade p:nth-of-type(3){text-align: center;
+                         margin-top: 10px}
+
+  .shade a{color: #00f;
+           display: block;
+           margin-top: 20px;
+           margin-left: 35px;
+           user-select: none;} 
+
+  .shade button{
+                margin-top: 15px;
+                user-select: none
+                }
+
+   .shade button:nth-of-type(1){
+          padding: 5px 10px;
+          float: left;
+          overflow: hidden;
+          margin-left: 350px;
+          border-radius: 3px;
+          background: #fff;
+           border-style: none;
+           border:1px solid #ccc;
+           cursor: pointer;       
+  }                       
+   
+               
+.shade button:nth-of-type(2){
+         
+           border-style: none;
+           border:1px solid #ccc;
+           cursor: pointer;
+           border: 1px solid #d00;
+           color: #d00;
+           border-radius: 3px;
+           background: #fff;
+           padding: 5px 10px;
+           margin-left: 30px;
+  }   
+
+ .chose{position: absolute;
+      left:0;
+      top:0;
+      bottom:0;
+      right:0;
+      width:100%;
+      height: 150%;
+      background: rgba(0,0,0,0.18);} 
+/*-------------尾页----------------*/                                     
+.foot{width: 100%;
+      background: #fff;
+      height: 223px;}
+
+.list li{float:left;
+         overflow: hidden;
+         margin-top: 30px;
+         margin-right: 15px;
+         font: 12px/22px Arial,"Microsoft YaHei";
+        color: #666}
+
+ .list li a{font-size: 12px;
+            color: #666}
+
+ .list li a:hover{color: #f00}       
+
+ .foot-copyright{float: left;
+                 overflow: hidden;
+                 font: 12px/22px Arial;
+                  color: #999;
+                }            
+.foot-copyright a{color: #999}
+
+.foot-copyright a:hover{color: #f00}
+
+
+.siteinfoLegal{width: 990px;
+               height: 70px;
+               border-top: 1px solid #e6e6e6;
+               
+               float: left;
+               overflow: hidden;}
+
+.siteinfoLegal li{font-size: 12px;
+                  color: #999;
+                  float: left;
+                  overflow: hidden;
+                  text-align: left;
+                  margin-top: 13px;
+                  }  
+
+.siteinfoLegal li:nth-of-type(1){position: relative;
+                  width: 120px}     
+
+ .siteinfoLegal span:nth-of-type(1){position: absolute;
+                  top: 0;
+                  left: 40px
+                  }   
+
+ .siteinfoLegal li:nth-of-type(2){position: relative;
+                  width: 110px}     
+
+ .siteinfoLegal span:nth-of-type(2){position: absolute;
+                  top: 0;
+                  left: 40px
+                  }  
+
+ .siteinfoLegal li:nth-of-type(3){position: relative;
+                  width: 110px;
+                  height: 30px}     
+
+ .siteinfoLegal span:nth-of-type(3){position: absolute;
+                  top: 15px;
+                  left: 45px;
+                  }                                                 
+ .siteinfoLegal li:nth-of-type(4){position: relative;
+                  width: 110px}     
+
+ .siteinfoLegal span:nth-of-type(4){position: absolute;
+                  top: 0;
+                  left: 40px;
+                  } 
+
+  .siteinfoLegal li:nth-of-type(5){position: relative;
+                  width: 120px}     
+
+ .siteinfoLegal span:nth-of-type(5){position: absolute;
+                  top: 0;
+                  left: 40px;
+                  }  
+  .siteinfoLegal li:nth-of-type(6){position: relative;
+                  width: 170px}     
+
+ .siteinfoLegal span:nth-of-type(6){position: absolute;
+                  top: 0;
+                  left: 60px;
+                  }  
+ .siteinfoLegal li:nth-of-type(7){position: relative;
+                  width: 140px}     
+
+ .siteinfoLegal span:nth-of-type(7){position: absolute;
+                  top: 0;
+                  left: 40px;
+                  }                                                                                                   
+
+.pic-one{background: url(../images/login-img/jingling.jpg) no-repeat 0 -182px;
+        width: 35px;
+        height: 34px;
+        display: inline-block;
+        vertical-align: top;
+        line-height: 30px;
+        }
+
+.pic-two{background: url(../images/login-img/jingling.jpg) no-repeat -35px -182px;
+        width: 35px;
+        height: 34px;
+        display: inline-block;
+        vertical-align: top;
+        line-height: 30px;
+        }
+
+.pic-three{background: url(../images/login-img/jingling.jpg) no-repeat -70px -182px;
+        width: 35px;
+        height: 34px;
+        display: inline-block;
+        vertical-align: top;
+        line-height: 30px;
+        }
+
+.pic-four{background: url(../images/login-img/jingling.jpg) no-repeat -105px -182px;
+        width: 35px;
+        height: 34px;
+        display: inline-block;
+        vertical-align: top;
+        line-height: 30px;
+        }
+
+.pic-five{background: url(../images/login-img/jingling.jpg) no-repeat -140px -182px;
+        width: 35px;
+        height: 34px;
+        display: inline-block;
+        vertical-align: top;
+        line-height: 30px;
+        }                                
+.pic-six{background: url(../images/login-img/jingling.jpg) no-repeat -175px -182px;
+        width: 35px;
+        height: 33px;
+        display: inline-block;
+        vertical-align: top;
+        line-height: 30px;
+        }
+
+.pic-seven{background: url(../images/login-img/jingling.jpg) no-repeat -210px -182px;
+        width: 35px;
+        height: 34px;
+        display: inline-block;
+        vertical-align: top;
+        line-height: 30px;
+        }        
+               
+.siteinfoLegal span{color: #999}      
